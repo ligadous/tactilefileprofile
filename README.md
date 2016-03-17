@@ -1,5 +1,19 @@
 # Tactile File Profiler (tfp.rb)
 
+Install golang and set environment variable
+
+## Go version - Install
+
+Download and build pkg
+
+	go get github.com/ligadous/tactilefileprofile
+
+run app with:
+
+	tactilefileprofile <file1> <file2>
+
+## Ruby version
+
 The Tactile File Profiler (tfp) script is used to quickly analyze a file system to help identify file locations, permissions, and ownership.
 
 The script currently takes two inputs:
